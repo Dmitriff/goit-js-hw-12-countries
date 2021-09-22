@@ -1,0 +1,35 @@
+{
+  "name": "goit-js-hw-12-countriesss",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Dmitriff.github.io/goit-js-hw-12-countriesss",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countriesss/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitriff/goit-js-hw-12-countriesss.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitriff/goit-js-hw-12-countriesss/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "pnotify": "^5.2.0",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "debounce": "^1.2.1",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.0.2"
+  }
+}
