@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA,KACE,wBACF,CAEA,SACE,WACF,CAEA,OACE,iBACF","file":"main.bdf3afcb.css","sourceRoot":"../src","sourcesContent":["body {\n  background-color: #0ee431;\n}\n\n.section {\n  width: 500px;\n}\n\n.title {\n  text-align: center;\n}\n"]}
