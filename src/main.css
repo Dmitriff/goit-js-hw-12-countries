@@ -1,11 +1,41 @@
 body {
-  background-color: #0ee431;
+  background-color: rgb(231, 231, 221);
+}
+.ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.section {
-  width: 500px;
+.input {
+  display: block;
+  width: 200px;
+  min-height: 30px;
+  font-size: 16px;
+  border-radius: 6px;
 }
 
-.title {
+.one-country {
   text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.country-info {
+  letter-spacing: 0.01em;
+  list-style: none;
+  font-size: 20px;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.flex {
+  justify-content: center;
 }
