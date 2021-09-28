@@ -1,6 +1,7 @@
+import './main.css';
 import Notiflix from 'notiflix';
 import debounce from 'lodash.debounce';
-import { fetchCountries } from './fetchCountries';
+import { fetchCountries } from './js/fetchCountries';
 
 const contentContainer = document.getElementById('content');
 const input = document.querySelector('#input');
@@ -9,7 +10,7 @@ input.addEventListener(
   'input',
   debounce(evt => {
     fetchCountries(evt.target.value.trim(), renderCountries);
-  }, 800),
+  }, 500),
 );
 
 function renderCountries(data) {
