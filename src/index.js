@@ -16,9 +16,7 @@ input.addEventListener(
 function renderCountries(data) {
   const countries = logMessages(data);
 
-  while (contentContainer.firstChild) {
-    contentContainer.removeChild(contentContainer.firstChild);
-  }
+  contentContainer.innerHTML = '';
 
   if (!countries) {
     return;
